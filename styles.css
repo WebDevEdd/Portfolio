@@ -1,0 +1,152 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+}
+#myVideo{
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      z-index: -1;
+      min-width: 100%;
+      min-height: 100%;
+      filter: brightness(50%);
+}
+.nav-wrapper{
+      width: 100%;
+      height: 160px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+}
+.nav-container{
+      width: 80%;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+#logo{
+      height: 100%;
+}
+.nav-logo{
+      height: 80%;
+}
+.about{
+      color: white;
+}
+a{
+      text-decoration: none;
+}
+.banner-wrapper{
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: 0.4s ease all;
+}
+.banner-scrolled{
+      background-color: rgb(27, 28, 41);
+}
+.banner-container{
+      width: 75%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.banner-text{
+      color: white;
+      font-size: 5vw;
+      margin: auto;
+      position: fixed;
+      width: 80vw;
+      opacity: 1;
+      transition: 0.4s ease all;
+}
+.h1-scrolled{
+      width: 0vw;
+      font-size: 0vw;
+      opacity: 0;
+}
+
+/* Work section */
+.work-wrapper{
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(27, 28, 41);
+      flex-direction: column;
+}
+.work-container{
+      width: 80%;
+      height: 100%;
+}
+.work-header{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 64px;
+}
+.work-title{
+      color: white;
+      font-size: 64px;
+}
+.work-title span{
+      color: rgb(17, 17, 201);
+}
+.work-info{
+      color: white;
+      font-size: 18px;
+}
+.projects{
+      width: 100%;
+}
+.project1{
+      width: 100%;
+      overflow: hidden;
+}
+.project{
+      width: 100%;
+      height: 100%;
+      transition: 0.4s ease;
+}
+.project:hover{
+      transform: scale(1.1);
+}
+.projects23{
+      width: 50%;
+      overflow: hidden;
+}
+.projects-bottom{
+      display: flex;
+}
+
+.about-wrapper{
+      width: 100%;
+      min-height: 100vh;
+      background-color: rgb(70, 70, 70);
+      display: flex;
+      justify-content: center;
+}
+.about-container{
+      padding-top: 160px;
+      width: 80%;
+      color: rgb(255, 255, 255);
+}
+.about-container p{
+      text-indent: 16px;
+}
+.skills-container{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+}
+i{
+      font-size: 32px;
+}
